@@ -16,8 +16,10 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.175"
-        app:srcCompat="@drawable/user_icon" />
+        app:layout_constraintVertical_bias="0.082"
+        app:srcCompat="@drawable/user_icon"
+
+        />
 
     <ImageView
         android:id="@+id/imageViewOrders"

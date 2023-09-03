@@ -8,11 +8,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RoyaleBeurivageVersion1">
         <activity
-            android:name=".userpage"
+            android:name=".orderpage"
             android:exported="false" />
         <activity
+            android:name=".userpage"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
             android:name=".adminHomePage"
-            android:exported="true">
+            android:exported="true"
+            android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
